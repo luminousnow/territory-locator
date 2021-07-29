@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/territory-locator/static/css/main.d4c5beda.chunk.css",
+    "main.js": "/territory-locator/static/js/main.79ff79cb.chunk.js",
+    "main.js.map": "/territory-locator/static/js/main.79ff79cb.chunk.js.map",
+    "runtime-main.js": "/territory-locator/static/js/runtime-main.4bb5ca6e.js",
+    "runtime-main.js.map": "/territory-locator/static/js/runtime-main.4bb5ca6e.js.map",
+    "static/css/2.bc922b9c.chunk.css": "/territory-locator/static/css/2.bc922b9c.chunk.css",
+    "static/js/2.2984ef75.chunk.js": "/territory-locator/static/js/2.2984ef75.chunk.js",
+    "static/js/2.2984ef75.chunk.js.map": "/territory-locator/static/js/2.2984ef75.chunk.js.map",
+    "static/js/3.c1f64a3d.chunk.js": "/territory-locator/static/js/3.c1f64a3d.chunk.js",
+    "static/js/3.c1f64a3d.chunk.js.map": "/territory-locator/static/js/3.c1f64a3d.chunk.js.map",
+    "index.html": "/territory-locator/index.html",
+    "static/css/2.bc922b9c.chunk.css.map": "/territory-locator/static/css/2.bc922b9c.chunk.css.map",
+    "static/css/main.d4c5beda.chunk.css.map": "/territory-locator/static/css/main.d4c5beda.chunk.css.map",
+    "static/js/2.2984ef75.chunk.js.LICENSE.txt": "/territory-locator/static/js/2.2984ef75.chunk.js.LICENSE.txt",
+    "static/media/700x300.182b930d.jpg": "/territory-locator/static/media/700x300.182b930d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4bb5ca6e.js",
+    "static/css/2.bc922b9c.chunk.css",
+    "static/js/2.2984ef75.chunk.js",
+    "static/css/main.d4c5beda.chunk.css",
+    "static/js/main.79ff79cb.chunk.js"
+  ]
+}
