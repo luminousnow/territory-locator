@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import { Container } from "@material-ui/core";
-import { About, Contactus, Home, Partners } from "./views";
+import { AboutView, ContactusView, HomeView, PartnersView } from "./views";
 import { Navbar, Footer } from "./components";
 
 const App: FC = () => (
@@ -9,10 +9,10 @@ const App: FC = () => (
     <Navbar />
 
     <Switch>
-      <Route exact path="/" component={Home} />
-      <Route path="/partners" component={Partners} />
-      <Route path="/contact-us" component={Contactus} />
-      <Route path="/about" component={About} />
+      <Route exact path="/" component={HomeView} />
+      <Route path="/partners" component={PartnersView} />
+      <Route path="/contact-us" component={ContactusView} />
+      <Route path="/about" component={AboutView} />
       <Redirect to="/" />
     </Switch>
 
