@@ -29,7 +29,7 @@ const useStyles = makeStyles({
   },
 });
 
-export const Home: FC = () => {
+export const HomeView: FC = () => {
   const classes = useStyles();
   return (
     <Main>

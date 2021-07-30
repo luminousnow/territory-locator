@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { Main } from "../components";
 
-export const Partners: FC = () => (
+export const PartnersView: FC = () => (
   <Main>
     <p>
       Partners page. Lorem ipsum dolor sit amet consectetur, adipisicing elit.

@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { Main } from "../components";
 
-export const Contactus: FC = () => (
+export const ContactusView: FC = () => (
   <Main>
     <p>
       Contactus page. Lorem ipsum dolor sit amet consectetur, adipisicing elit.

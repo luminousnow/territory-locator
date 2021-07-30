@@ -1,6 +1,6 @@
-import { Home } from "./Home";
-import { Partners } from "./Partners";
-import { About } from "./About";
-import { Contactus } from "./Contactus";
+import { HomeView } from "./HomeView";
+import { PartnersView } from "./PartnersView";
+import { ContactusView } from "./ContactusView";
+import { AboutView } from "./AboutView";
 
-export { Home, Partners, Contactus, About };
+export { HomeView, PartnersView, ContactusView, AboutView };
