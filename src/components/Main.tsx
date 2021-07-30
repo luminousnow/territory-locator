@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles({
   main: {
-    minHeight: "calc(100vh - 140px)",
+    height: "calc(100vh - 140px)",
     padding: "20px",
   },
 });
