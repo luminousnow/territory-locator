@@ -4,21 +4,19 @@ import { makeStyles } from "@material-ui/core";
 const useStyles = makeStyles({
   footer: {
     display: "flex",
+    flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
     width: "100%",
     height: "40px",
-    // textAlign: "center",
-    // verticalAlign: "middle",
     backgroundColor: "#dedede",
   },
 });
 
 export const Footer: FC = () => {
-  const s = useStyles();
-
+  const classes = useStyles();
   return (
-    <div className={s.footer}>
+    <div className={classes.footer}>
       <p>Footer</p>
     </div>
   );

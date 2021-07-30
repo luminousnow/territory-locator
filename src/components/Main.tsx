@@ -9,7 +9,6 @@ const useStyles = makeStyles({
 });
 
 export const Main: FC = ({ children }) => {
-  const s = useStyles();
-
-  return <div className={s.main}>{children}</div>;
+  const classes = useStyles();
+  return <main className={classes.main}>{children}</main>;
 };
