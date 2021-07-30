@@ -33,7 +33,6 @@ const useStyles = makeStyles({
 export const HomeView: FC = () => {
   const classes = useStyles();
   const history = useHistory();
-  const handleClick = () => history.push("/contact-us");
 
   return (
     <Main>
@@ -66,7 +65,7 @@ export const HomeView: FC = () => {
             className={classes.button}
             variant="contained"
             color="primary"
-            onClick={handleClick}
+            onClick={() => history.push("/contact-us")}
           >
             Contact us
           </Button>

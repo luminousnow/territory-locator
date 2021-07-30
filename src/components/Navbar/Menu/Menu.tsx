@@ -1,52 +1,50 @@
 import { FC } from "react";
-import { makeStyles } from "@material-ui/core";
+import { makeStyles, Button } from "@material-ui/core";
+import { useHistory } from "react-router-dom";
 
 const useStyles = makeStyles({
   menu: {
     display: "flex",
+    flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    height: "100%",
   },
 
-  menu__list: {
-    display: "flex",
-  },
-
-  menu__element: {
-    padding: "10px",
+  button: {
     margin: "15px",
-  },
-
-  menu__link: {
-    color: "black",
-    fontWeight: "bold",
-    textDecoration: "none",
   },
 });
 
 export const Menu: FC = () => {
-  const s = useStyles();
+  const classes = useStyles();
+  const history = useHistory();
 
   return (
-    <div className={s.menu}>
-      <ul className={s.menu__list}>
-        <li className={s.menu__element}>
-          <a href="http://" className={s.menu__link}>
-            Home
-          </a>
-        </li>
-        <li className={s.menu__element}>
-          <a href="http://" className={s.menu__link}>
-            Partners
-          </a>
-        </li>
-        <li className={s.menu__element}>
-          <a href="http://" className={s.menu__link}>
-            About
-          </a>
-        </li>
-      </ul>
+    <div className={classes.menu}>
+      <Button
+        variant="contained"
+        color="primary"
+        onClick={() => history.push("/")}
+        className={classes.button}
+      >
+        Home
+      </Button>
+      <Button
+        variant="contained"
+        color="primary"
+        onClick={() => history.push("/partners")}
+        className={classes.button}
+      >
+        Partners
+      </Button>
+      <Button
+        variant="contained"
+        color="primary"
+        onClick={() => history.push("/about")}
+        className={classes.button}
+      >
+        About
+      </Button>
     </div>
   );
 };
