@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { useHistory } from "react-router-dom";
 import { Button, makeStyles } from "@material-ui/core";
 import { Main } from "../components";
 import img from "../assets/img/700x300.jpg";
@@ -31,6 +32,9 @@ const useStyles = makeStyles({
 
 export const HomeView: FC = () => {
   const classes = useStyles();
+  const history = useHistory();
+  const handleClick = () => history.push("/contact-us");
+
   return (
     <Main>
       <div className={classes.homeContent}>
@@ -62,6 +66,7 @@ export const HomeView: FC = () => {
             className={classes.button}
             variant="contained"
             color="primary"
+            onClick={handleClick}
           >
             Contact us
           </Button>
