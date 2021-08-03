@@ -13,6 +13,8 @@ const useStyles = makeStyles({
   },
   img: {
     paddingRight: "20px",
+
+    cursor: "pointer",
   },
   description: {
     textAlign: "center",
@@ -38,7 +40,7 @@ export const HomeView: FC = () => {
     <Main>
       <div className={classes.homeContent}>
         <div className={classes.img}>
-          <img src={img} alt="" />
+          <img src={img} alt="" onClick={() => history.push("/cat-fackt")} />
         </div>
         <div className={classes.description}>
           <ul className={classes.descriptionList}>
