@@ -18,7 +18,6 @@ const useStyles = makeStyles({
 export const Menu: FC = () => {
   const classes = useStyles();
   const history = useHistory();
-
   return (
     <div className={classes.menu}>
       <Button

@@ -1,13 +1,11 @@
 import axios from "../axios";
 import { AxiosResponse } from "axios";
 
-// interface for MAPping
 export interface CatFactResponseModel {
   fact: string;
   length: number;
 }
 
-// interface for response data
 export interface ResponseModel {
   current_page: number;
   data: CatFactResponseModel[];

@@ -35,7 +35,6 @@ const useStyles = makeStyles({
 export const HomeView: FC = () => {
   const classes = useStyles();
   const history = useHistory();
-
   return (
     <Main>
       <div className={classes.homeContent}>

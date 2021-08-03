@@ -1,7 +1,6 @@
 import { FC } from "react";
 import { makeStyles } from "@material-ui/core";
 import { Main } from "../components";
-// import img from "https://picsum.photos/400/200";
 
 const useStyles = makeStyles({
   outer: {
@@ -9,11 +8,9 @@ const useStyles = makeStyles({
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
-
     width: "100%",
     height: "100%",
   },
-
   contactUs: {
     display: "flex",
     flexDirection: "column",
@@ -25,19 +22,15 @@ const useStyles = makeStyles({
     boxShadow: "0px 0px 10px 6px rgba(34, 60, 80, 0.2)",
     borderRadius: "5px",
   },
-
   title: {
     marginBottom: "20px",
   },
-
   link: {
     textDecoration: "none",
   },
-
   textLink: {
     color: "black",
   },
-
   img: {
     marginBottom: "10px",
     width: "500px",
@@ -46,7 +39,6 @@ const useStyles = makeStyles({
 
 export const ContactusView: FC = () => {
   const classes = useStyles();
-
   return (
     <Main>
       <div className={classes.outer}>

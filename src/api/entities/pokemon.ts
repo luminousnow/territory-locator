@@ -27,5 +27,4 @@ export const getPokemon = async (): Promise<
   );
 
   return res;
-  // return res?.data;
 };
