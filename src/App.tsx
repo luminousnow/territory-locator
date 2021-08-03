@@ -1,7 +1,14 @@
 import { FC } from "react";
 import { Switch, Route, Router, Redirect } from "react-router-dom";
 import { Container } from "@material-ui/core";
-import { AboutView, ContactusView, HomeView, PartnersView } from "./views";
+import {
+  AboutView,
+  ContactusView,
+  HomeView,
+  PartnersView,
+  PokemonsView,
+  CatFacktsViews,
+} from "./views";
 import { Navbar, Footer } from "./components";
 import history from "./history";
 
@@ -15,6 +22,9 @@ const App: FC = () => (
         <Route path="/partners" component={PartnersView} />
         <Route path="/contact-us" component={ContactusView} />
         <Route path="/about" component={AboutView} />
+        <Route path="/pokemons" component={PokemonsView} />
+        <Route path="/cat-fackt" component={CatFacktsViews} />
+
         <Redirect to="/" />
       </Switch>
 
