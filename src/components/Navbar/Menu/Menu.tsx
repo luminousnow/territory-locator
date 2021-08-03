@@ -40,6 +40,14 @@ export const Menu: FC = () => {
       <Button
         variant="contained"
         color="primary"
+        onClick={() => history.push("/pokemons")}
+        className={classes.button}
+      >
+        Pokemons
+      </Button>
+      <Button
+        variant="contained"
+        color="primary"
         onClick={() => history.push("/about")}
         className={classes.button}
       >
