@@ -32,7 +32,7 @@ export const Menu: FC = () => {
       <Button
         variant="contained"
         color="primary"
-        onClick={() => history.push("/partners")}
+        onClick={() => history.push("/partners", { name: "Denys" })}
         className={classes.button}
       >
         Partners
